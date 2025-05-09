@@ -1,0 +1,177 @@
+/*limpar formatação padrão */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 1em;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background: #e6e6e6;
+
+}
+
+/*Layout */
+
+#area-cabecalho{
+    background-color: #f7b600;
+    padding: 15px;
+    text-align: center;
+    
+
+}
+
+
+#area-logo , #area-menu{
+    padding: 10px;
+
+}
+
+
+
+/**** Formatação Menu *****/
+/**** ao especificar #area-cabecalho ele vai tirar o bug ***/
+
+ a:link , a:visited{
+    color: #f7b600;
+    padding: 8px 12px ;
+}
+
+ 
+ a:hover{
+    text-decoration: underline ;
+}
+
+
+#area-principal{
+    width: 920px;
+    margin: 0 auto;
+    padding: 15px;
+
+
+}
+
+
+#area-postagens{
+    width: 660px;
+    float: left;
+
+
+}
+
+
+
+#area-lateral{
+    width: 240px;
+    float: right;
+
+}
+
+
+.postagem{
+    padding: 20px;
+    margin-bottom: 20px;
+    background: white;
+}
+
+
+
+.conteudo-lateral{
+    background: white;
+    padding: 10px;
+    margin-bottom: 10px;
+
+}
+
+.postagem-lateral{
+    font-size: 0.8em;
+    padding: 5px;
+   /* border-bottom: 1px dotted #ccc;  caso você queira se não use a tag  HR no HTML  */
+}
+
+
+    
+
+#rodape {
+    clear: both;
+    text-align: center;
+    padding: 15px;
+    background: #ccc;
+    margin-top: 20px;
+}
+
+    
+
+
+
+
+
+
+/****** Tirar underline *******/
+
+h1{
+    color: #4e4e4e;
+    font-size: 2.5em;
+}
+
+
+
+.branco{
+    color: white;
+}
+
+
+
+.data-postagem{
+    font-size: 0.8em ;
+    display: block;
+    padding-bottom: 10px;
+}
+
+
+
+
+h2{
+    color: #f7b600;
+
+}
+
+
+h3{
+    color: #565656;
+    background: #ccc;
+    padding: 5px;
+}
+
+
+
+.leia-mais {
+    display: inline-block;
+    margin-top: 10px;
+    color: #f7b600;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.leia-mais:hover {
+    text-decoration: underline;
+}
+
+
+
+#area-menu{
+    background: #f7b600;
+    padding: 10px;
+    text-align: center;
+}
+
+
+#area-menu a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 15px;
+}
+
+
